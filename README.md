@@ -1,33 +1,32 @@
 # 19CS301Module8
 EXPTNO.8a Program to find Find the simple interest
 
-### Aim: To Write a Python Program to find Find the simple interest by getting the principal, rate and time value from the user
-### Algorithm:
+### Aim: To Write a python program to read the marks of three subjects from the users and calculate the total and percentage for that particular student.
+
+###Algorithm
 
 STEP 1: Start.
 
 STEP 2: Define a function.
 
-STEP 3: Create variable 'p','r','t' for principal,rate of interest and time. STEP 4: Get the input of p,r and t from user.
+STEP 3: Create variable 'm1','m2','m3' for marks. 
+STEP 4: Get the input of m1,m2 and m3 from user.
 
-STEP 5 : Using the formula (p*r*t)/100 calculate the result. STEP 6: Print the result.
+STEP 5 : Using the formula (m1+m2+m3)/3 calculate the result. 
+
+STEP 6: Print the result.
 
 STEP 7: Stop.
 
 ### Program:
 ```
-def simpleInterest(p,t,r):
-      si = p*t*r/100
-       return si
-p = eval(input())
-r = eval(input())
-t = eval(input())
+m1,m2,m3=int(input()),int(input()),int(input())
+total=m1+m2+m3;
+percentage=(total/300)*100
+print("Total marks obtained is {} and the percentage obtained is {}".format(total,percentage))
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/0cc71222-9697-4545-a937-b330407cbc02)
-
-
-
+![image](https://github.com/gokulkrishnan2005/19CS301Module8/blob/main/26.png)
 
 
 ### Result: Thus, the given program is implemented and executed successfully .
