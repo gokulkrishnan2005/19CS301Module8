@@ -95,6 +95,7 @@ STEP 8: Stop.
           arr2 = list(set(arr))
           arr2.sort()
 print(arr2[-2])
+```
 
 ### Output:
  
