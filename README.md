@@ -1,7 +1,8 @@
 # 19CS301Module8
 EXPTNO.8a Program to find Find the simple interest
 
-### Aim: To Write a python program to read the marks of three subjects from the users and calculate the total and percentage for that particular student.
+### Aim:
+To Write a python program to read the marks of three subjects from the users and calculate the total and percentage for that particular student.
 
 ###Algorithm
 
@@ -29,11 +30,13 @@ print("Total marks obtained is {} and the percentage obtained is {}".format(tota
 ![image](https://github.com/gokulkrishnan2005/19CS301Module8/blob/main/26.png)
 
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result: 
+Thus, the given program is implemented and executed successfully .
 
 EXPTNo.8b program to display elements from a list, present at odd index positions
 
-### Aim: To Write a python program to display elements from a list, present at odd index positions
+### Aim:
+To Write a python program to display elements from a list, present at odd index positions
 ### Algorithm:
 
 STEP 1: Start.
@@ -66,11 +69,13 @@ odd(a)
 ### Output:
 ![image](https://github.com/user-attachments/assets/a13fba7c-36b5-4227-98c1-82ab22a7804a)
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result:
+Thus, the given program is implemented and executed successfully .
  
 
 EXPT NO>8C To Write a python program to Given the participants'	score sheet for your University Sports Day, you are required to find the runner-up score
-### Aim: To Write a python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them 
+### Aim: 
+To Write a python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them 
          in a list and find the score of the runner-up.
 
 
@@ -103,12 +108,14 @@ print(arr2[-2])
 
  
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result:
+Thus, the given program is implemented and executed successfully .
  
 
 
 EX: 8.d program to square all the even numbers and cube all odd numbers from a list of integers
-### Aim: To Develop a python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list.
+### Aim: 
+To Develop a python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list.
 
 
 ### Algorithm:
@@ -140,6 +147,41 @@ f,l = int(input()),int(input())
 
 
 ### Result: Thus, the given program is implemented and executed successfully .
+
+EXPTNO.8e Program to find out whether given is a valid regex or not.
+### Aim:
+To Write a python program to  find out whether given is a valid regex or not.
+
+###Algorithm
+
+Takes an integer input n — number of regex patterns to check.
+
+For each input line, it checks whether the string is a valid regular expression.
+
+If it can be compiled using re.compile(), it prints "True".
+
+If it's invalid, it raises a re.error, and prints "False".
+
+
+### Program:
+```
+import re
+n=int(input())
+for i in range(n):
+    s=input()
+    try:
+        p=re.compile(s)
+        if p:
+            print("True")
+    except re.error:
+        print("False")
+```
+### Output:
+![image](https://github.com/gokulkrishnan2005/19CS301Module8/blob/main/26.png)
+
+
+### Result:
+Thus, the given program is implemented and executed successfully .
  
 
 
