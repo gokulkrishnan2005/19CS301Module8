@@ -177,7 +177,7 @@ for i in range(n):
         print("False")
 ```
 ### Output:
-![image](https://github.com/gokulkrishnan2005/19CS301Module8/blob/main/26.png)
+![image](https://github.com/gokulkrishnan2005/19CS301Module8/blob/main/module8%20ka%20image.png)
 
 
 ### Result:
